@@ -15,6 +15,7 @@
 
         @mkdir("JoinMessage/", 0777, true);
         touch("JoinMessage/config.txt");
+        $this->getServer()->getPluginManager()->registerEvents($this, $this);
 
       }
 
